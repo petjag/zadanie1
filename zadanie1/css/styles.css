@@ -1,13 +1,16 @@
 /*  -------------------GENERAL--------------- */
 * {
   box-sizing: border-box;
-  font-family: "SF Pro Display", sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body {
+  font-family: "SF Pro Display", sans-serif;
+}
+
 .container {
-  width: 1300px;
+  max-width: 1200px;
   margin: auto;
 }
 
@@ -142,14 +145,8 @@ button {
 
 .why-openlab {
   max-width: 100%;
-  height: 420px;
   background-color: #ffffff;
   color: #212529;
-}
-
-.why-openlab-container {
-  width: 1200px;
-  margin: auto;
 }
 
 .why-openlab-text {
@@ -191,4 +188,396 @@ button {
   margin-top: 8px;
   color: #566b8d;
   font-size: 16px;
+}
+
+/* ---------------SECTION VISION------------ */
+
+.vision {
+  padding-top: 80px;
+}
+
+.vision-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.vision-box-text {
+  width: 50%;
+  text-align: left;
+  padding-top: 60px;
+  padding-right: 35px;
+}
+
+.vision-box-text h2 {
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.vision-box-text h2 strong {
+  font-weight: 700;
+}
+
+.vision-box-text p {
+  color: #566b8d;
+  font-size: 17px;
+  padding-bottom: 35px;
+}
+
+.vision-box-pair {
+  display: flex;
+  justify-content: space-between;
+  align-content: stretch;
+}
+
+.vision-box-pair-inside {
+  width: 220px;
+  height: 170px;
+  padding: 22px 15px;
+  margin: 8px;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.vision-box-pair-inside h3 {
+  font-size: 90px;
+}
+
+.vision-box-pair-inside p {
+  font-size: 36px;
+}
+
+#blue-box {
+  background-color: #ddecfb66;
+  color: #5b94d7;
+}
+
+#green-box {
+  background-color: #9ceecc66;
+  color: #5cc19a;
+}
+
+#yellow-box {
+  background-color: #eee29c66;
+  color: #dbca68;
+}
+
+#red-box {
+  background-color: #ee9c9c66;
+  color: #b95e73;
+}
+
+/* ------------SECTION LAB------------- */
+
+.lab-boxes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 140px;
+}
+
+.lab-boxes-big_box {
+  width: 360px;
+  padding-top: 65px;
+}
+
+.lab-boxes-big_box h2 {
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.lab-boxes-small_box {
+  width: 274px;
+  height: 240px;
+  border-radius: 0.25rem;
+  padding: 24px 48px;
+  position: relative;
+}
+
+.lab-boxes-small_box:hover {
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.lab-boxes-small_box h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.lab-boxes-small_box p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #566b8d;
+}
+
+.lab-boxes-small_box img {
+  position: absolute;
+  bottom: 32px;
+  left: 50px;
+}
+
+/* -----------SECTION TECH-STUDIUM------------ */
+
+.tech-study {
+  padding-top: 80px;
+}
+
+.tech-study-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tech-study-box-text {
+  width: 50%;
+  text-align: left;
+  padding-right: 35px;
+}
+
+.tech-study-box-text h2 {
+  font-size: 36px;
+  font-weight: 400;
+  padding-bottom: 50px;
+}
+
+.tech-study-box-text h2 strong {
+  font-weight: 700;
+}
+
+.tech-study-box-text p {
+  color: #566b8d;
+  font-size: 17px;
+  padding-bottom: 35px;
+}
+
+.tech-study-box-boxes {
+  width: 380px;
+  padding-left: 20px;
+}
+
+.tech-study-box-boxes h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 70px;
+}
+
+.tech-study-box-boxes-box {
+  height: 80px;
+  width: 280px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tech-study-box-boxes-box p {
+  font-size: 16px;
+  font-weight: 600;
+  color: #566b8d;
+  padding-left: 10px;
+}
+
+/* -----------SECTION IMAGES------------ */
+
+.images {
+  margin-bottom: 50px;
+}
+
+.images-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+/* -----------SECTION TECH-CENTRE------------- */
+
+.tech-centre {
+  background-color: #f3f9ff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tech-centre h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.tech-centre-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#tc-img {
+  height: 270px;
+  width: 526px;
+}
+
+.tech-centre-box-adress {
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tech-centre-box-adress p {
+  padding-top: 3px;
+  color: #566b8d;
+}
+
+.tech-centre-box h3 {
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+/* -----------SECTION SCHOOL------------- */
+
+.school {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.school-box {
+  position: relative;
+}
+
+.school h2 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.school-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+#sch-img {
+  height: 270px;
+  width: 526px;
+}
+
+.school-box-adress {
+  padding-top: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.school-box-adress p {
+  padding-top: 3px;
+  color: #566b8d;
+}
+
+.school-box h3 {
+  font-size: 20px;
+  line-height: 25px;
+  padding-top: 20px;
+}
+
+.www {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  color: #3597ff;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* -----------SECTION STUDENTS------------- */
+
+.ol-students {
+  background-color: #f3f9ff;
+  padding-top: 50px;
+}
+.ol-students-box {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+}
+
+.ol-students-text {
+  padding-top: 150px;
+}
+
+.ol-students-text h2 {
+  text-align: left;
+  font-weight: 400;
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.ol-students-text p {
+  color: #566b8d;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.ol-students-text-icon {
+  padding-top: 50px;
+  padding-left: 15px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.ol-students-text-icon p {
+  color: #566b8d;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: -5px;
+}
+
+.ol-students-photo img {
+  height: 556px;
+  width: 636px;
+  margin-left: 80px;
+}
+
+/* -----------SECTION JOIN US------------- */
+
+.joinus {
+  margin-top: 75px;
+  margin-bottom: 75px;
+}
+
+.joinus h2 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.joinus-boxes {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 75px;
+}
+
+.joinus-box {
+  width: 274px;
+  height: 260px;
+  border-radius: 0.25rem;
+  padding: 24px 36px;
+  position: relative;
+}
+
+.joinus-box:hover {
+  border: 1px solid transparent;
+  box-shadow: 1px 1px 1px 1px black;
+}
+
+.joinus-box h3 {
+  font-size: 20px;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.joinus-box p {
+  font-size: 16px;
+  font-weight: 400;
+  color: #566b8d;
+  text-align: left;
+}
+
+.joinus-box img {
+  position: absolute;
+  bottom: 32px;
+  left: 36px;
 }
